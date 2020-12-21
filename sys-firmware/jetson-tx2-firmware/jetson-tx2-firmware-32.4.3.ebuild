@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="-* arm arm64"
 IUSE=""
 
-DEPEND="|| ( <app-arch/bzip2-1.0.6 >=app-arch/bzip2-1.0.8 )"
+DEPEND="app-arch/bzip2"
 
 S="${WORKDIR}/Linux_for_Tegra/nv_tegra"
 
