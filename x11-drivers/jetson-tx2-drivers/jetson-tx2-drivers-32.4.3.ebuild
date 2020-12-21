@@ -15,7 +15,7 @@ RDEPEND="
 	>=x11-base/xorg-server-1.17.0:=
 	>=media-libs/libglvnd-1.3.1:0
 "
-DEPEND="|| ( <app-arch/bzip2-1.0.6 >=app-arch/bzip2-1.0.8 )"
+DEPEND="app-arch/bzip2"
 
 S="${WORKDIR}/Linux_for_Tegra/nv_tegra"
 
